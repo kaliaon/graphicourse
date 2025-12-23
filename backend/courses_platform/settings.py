@@ -34,6 +34,7 @@ ALLOWED_HOSTS = [
     "courses-platform-backend.onrender.com",
     "localhost",
     "127.0.0.1",
+    "graphicourse.onrender.com"
 ]
 
 
