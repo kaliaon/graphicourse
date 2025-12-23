@@ -103,6 +103,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000", 
+    "https://graphicourse-1.onrender.com",
     "http://courses-platform-frontend-g2i7exmb0-galyms-projects-c6da21f2.vercel.app",
     "https://courses-platform-frontend-g2i7exmb0-galyms-projects-c6da21f2.vercel.app",
     "https://courses-platform-frontend.vercel.app",
