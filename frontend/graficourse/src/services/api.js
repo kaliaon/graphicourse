@@ -2,8 +2,8 @@
  * Base API configuration and utility functions
  */
 
-// API base URL - ideally this would come from environment variables
-const API_BASE_URL = "http://127.0.0.1:8000/api"
+// API base URL - uses environment variable in production, localhost in development
+const API_BASE_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000/api"
 
 /**
  * Custom error for API responses
